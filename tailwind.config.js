@@ -6,7 +6,8 @@ export default {
       colors: {
         customGray: "#E4E5E8",
         lightGray: "#F1F2F4",
-        darkBlue: "#0A65CC"
+        darkBlue: "#0A65CC",
+        paleBlue: "#E7F0FA"
       }
     }
   },

@@ -1,4 +1,3 @@
-import React from "react"
 import { vacancies } from "../assets/assets"
 const Vacancies = () => {
   return (
@@ -7,13 +6,7 @@ const Vacancies = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {vacancies.map((job, index) => (
           <div key={index} className="text-center">
-            <p
-              className={`text-lg font-medium ${
-                job.isHighlighted ? "text-blue-600 underline" : "text-gray-900"
-              }`}
-            >
-              {job.title}
-            </p>
+            <p className="text-lg font-medium">{job.title}</p>
             <p className="text-sm text-gray-500">
               {job.positions} Open Positions
             </p>
